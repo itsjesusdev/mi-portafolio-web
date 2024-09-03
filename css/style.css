@@ -47,18 +47,6 @@ body {
     background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%); /* colores gradiantes/con degradado */
 }
 
-.profile-photo {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    border-radius: 100%;
-    border: 1px solid white;
-    width: 100px;
-    height: 100px;
-    /* bottom: -50px;
-    position: absolute; */
-}
-
 /* Globales */
 .contenedor {
     /*toma estos pixeles como máximo y solamente si hay ese espacio disponible, si no toma el 100% que tiene por default cualquier div*/
@@ -133,6 +121,10 @@ h3 {
     font-size: 2rem;
 }
 
+/* h2 span {
+    font-size: 2rem;
+} */
+
 /* Utilidades */
 .w-sm-100 {
     width: 100%;
@@ -172,13 +164,22 @@ h3 {
 }
 
 .navegacion-principal a {
-    display: block;
-    text-align: center;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
     color: var(--blanco);
     text-decoration: none;
     font-size: 2rem;
     font-weight: 700;
     padding: 1rem;
+}
+
+.navegacion-principal img {
+    display: block;
+    text-align: center;
+    height: 3.5rem;
+    width: 3.5rem;
 }
 
 .navegacion-principal a:hover {
@@ -197,11 +198,10 @@ h3 {
 
     /* para tomar todo el ancho disponible */
     background-size: cover;
-    height: 450px;
+    height: 550px;
 
     /* el padre siempre debe tener posición relativa para que el hijo se pueda posicionar de forma absoluta */
     position: relative;
-    margin-bottom: 2rem;
 }
 
 .contenido-hero {
@@ -223,13 +223,39 @@ h3 {
 }
 
 .contenido-hero h2,
-.contenido-hero p {
+.contenido-hero p
+{
     color: var(--blanco);
+}
+
+.profile-photo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 100%;
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    /* bottom: -50px;
+    position: absolute; */
+}
+
+.descripcion {
+    text-align: center;
+    width: 350px;
 }
 
 .contenido-hero .ubicacion {
     display: flex;
     align-items: flex-end;
+}
+
+@media (min-width: 768px)
+{
+    .descripcion {
+        text-align: center;
+        width: 400px;
+    }
 }
 
 /* Servicios */
