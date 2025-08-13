@@ -27,7 +27,7 @@
             <a href="index.html">Inicio</a>
             <a href="#servicios">Servicios</a>
             <a href="#proyectos">Proyectos</a>
-            <a class="github" target="_blank" href="https://github.com/jesucadev">
+            <a class="github" target="_blank" href="https://github.com/jmendozadev">
                 <img src="img/github.png" alt="github">
             </a>
         </nav>
@@ -173,28 +173,28 @@
 
         <section id="contacto">
             <h2>Contacto</h2>
-            <form class="formulario" action="#">
+            <form class="formulario" action="mailto:jmendozadev@gmail.com" method="post" enctype="text/plain">
                 <fieldset>
                     <legend>Contactame llenando todo los campos</legend>
                     <div class="contenedor-campos">
                         <div class="campo">
                             <label for="">Nombre</label>
-                            <input type="text" placeholder="Tu nombre">
+                            <input type="text" placeholder="Tu nombre" id="nombre" required>
                         </div>
 
                         <div class="campo">
                             <label for="">Teléfono</label>
-                            <input type="tel" placeholder="Tu teléfono">
+                            <input type="tel" placeholder="Tu teléfono" id="telefono" required>
                         </div>
 
                         <div class="campo">
                             <label for="">Correo</label>
-                            <input type="email" placeholder="Tu Correo">
+                            <input type="email" placeholder="Tu Correo" id="correo" required>
                         </div>
 
                         <div class="campo">
                             <label for="">Mensaje</label>
-                            <textarea placeholder="Tu mensaje"></textarea>
+                            <textarea placeholder="Tu mensaje" id="mensaje" required></textarea>
                         </div>
                     </div>
                     <div class="alinear-derecha">
