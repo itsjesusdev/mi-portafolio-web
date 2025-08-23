@@ -116,11 +116,6 @@ h3 {
     text-align: center;
 }
 
-/* Titulos */
-.titulo span {
-    font-size: 2rem;
-}
-
 /* h2 span {
     font-size: 2rem;
 } */
@@ -226,6 +221,10 @@ h3 {
 .contenido-hero p
 {
     color: var(--blanco);
+}
+
+.contenido-hero span {
+    color: var(--primario);
 }
 
 .profile-photo {
