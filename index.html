@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio de proyectos: Jesús Mendoza</title>
     <meta name="description" content="Portafolio web de Jesús Mendoza, Ingeniero de Software. Descubre mis proyectos y habilidades en desarrollo y diseño web.">
-    <link rel="icon" href="img/home-icon.png">
+    <link rel="icon" href="img/page-icon.png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,18 +20,15 @@
             <a href="index.html">Inicio</a>
             <a href="#servicios">Servicios</a>
             <a href="#proyectos">Proyectos</a>
-            <a class="github" target="_blank" href="https://github.com/jmendozadev">
-                <img src="img/github.png" alt="github">
-            </a>
         </nav>
     </div>
 
     <section class="hero">
         <div class="contenido-hero">
-            <img src="img/profile-photo.jpg" alt="foto de perfil" class="profile-photo">
+            <img src="img/avatar.png" alt="foto de perfil" class="profile-photo">
             <h2>Hola, soy <span>Jesús Mendoza</span></h2>
             <p class="descripcion"><span>Ingeniero de Software.</span> Enfocado en desarrollo web y diseño UX/UI. Diseño soluciones digitales funcionales, escalables y centradas en la experiencia.</p> 
-            <div class="ubicacion">
+<!--             <div class="ubicacion">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="60"
                     height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#BBCDE5" fill="none"
                     stroke-linecap="round" stroke-linejoin="round">
@@ -40,15 +37,28 @@
                     <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
                 </svg>
                 <p>Coatzacoalcos, Veracruz</p>
+            </div> -->
+            <!-- <a class="boton" href="mailto:jmendozadev@gmail.com">Contactar</a> -->
+            <div class="redes-sociales">
+                <a target="_blank" href="https://github.com/itsjesusdev">
+                    <img src="img/github.png" alt="github">
+                </a>
+                <a target="_blank" href="https://www.instagram.com/its.jesusdev/">
+                    <img src="img/instagram.png" alt="instagram">
+                </a>
+                <a target="_blank" href="https://www.linkedin.com/in/jesus-mendoza-mendoza/">
+                    <img class="linkedin" src="img/linkedin.png" alt="linkedin">
+                </a>
             </div>
-            <a class="boton" href="mailto:jmendozadev@gmail.com">Contactar</a>
+
+            </div>
         </div>
     </section>
 
-    <main class="contenedor sombra">
+    <main class="contenedor sombra-contenedor">
         <h2 id="servicios">Mis Servicios</h2>
         <div class="servicios">
-            <section class="servicio">
+            <section class="servicio servicio-web">
                 <h3>Desarrollo Web</h3>
                 <div class="iconos">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="40"
@@ -59,10 +69,10 @@
                         <path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
                     </svg>
                 </div>
-                <p>Creo sitios web rápidos, seguros y escalables.</p>
+                <p>Sitios web rápidos, seguros y escalables.</p>
             </section>
 
-            <section class="servicio">
+            <section class="servicio servicio-uxui">
                 <h3>Diseño UX/UI</h3>
                 <div class="iconos">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-palette" width="40"
@@ -76,14 +86,14 @@
                         <path d="M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
                     </svg>
                 </div>
-                <p>Transformo ideas en diseño atractivo, experiencias de usuario intuitivas y funcionales.</p>
+                <p>Experiencias de usuario intuitivas, y diseño atractivo.</p>
             </section>
         </div>
 
         <h2 id="proyectos">Mis Proyectos</h2>
         <div class="proyectos">
-            <section class="proyecto">
-                <img src="img/homepage-portafolio-web.jpg" alt="Proyecto 2">
+            <section class="proyecto sombra-proyecto">
+                <img class="project-ss" src="img/homepage-portafolio-web.jpg" alt="Proyecto 2">
                 <div class="contenido-proyecto">
                     <h3>Portafolio Web Personal</h3>
                     <p>Sitio web que presenta mi trayectoria y proyectos como ingeniero de software.</p>
@@ -98,8 +108,8 @@
                 </div>
             </section>
 
-            <section class="proyecto">
-                <img src="img/blog-literario.png" alt="Blog Literario">
+            <section class="proyecto sombra-proyecto">
+                <img class="project-ss" src="img/blog-literario.png" alt="Blog Literario">
                 <div class="contenido-proyecto">
                     <h3>Blog Literario</h3>
                     <p>Blog sobre reseñas de lecturas que alguien ha leído. Presenta contenido técnico de forma clara y estructurada.</p>
@@ -114,8 +124,8 @@
                 </div>
             </section>
 
-            <section class="proyecto">
-                <img src="img/homepage-ecommerce.jpg" alt="Proyecto 3">
+            <section class="proyecto sombra-proyecto">
+                <img class="project-ss" src="img/homepage-ecommerce.jpg" alt="Proyecto 3">
                 <div class="contenido-proyecto">
                     <h3>E-commerce de Camisetas</h3>
                     <p>Tienda en línea desarrollada como práctica de curso, utilizando HTML y CSS.</p>
@@ -130,8 +140,8 @@
                 </div>
             </section>
 
-            <section class="proyecto">
-                <img src="img/homepage-empleate.jpg" alt="Proyecto 5">
+            <section class="proyecto sombra-proyecto">
+                <img class="project-ss" src="img/homepage-empleate.jpg" alt="Proyecto 5">
                 <div class="contenido-proyecto">
                     <h3>Portal de Vacantes</h3>
                     <p>Aplicación web desarrollada con Laravel para gestionar ofertas de empleo del Ayuntamiento de Coatzacoalcos.</p>
@@ -143,8 +153,8 @@
                 </div>
             </section>
 
-            <section class="proyecto">
-                <img src="img/proyecto4.png" alt="Proyecto 6">
+            <section class="proyecto sombra-proyecto">
+                <img class="project-ss" src="img/proyecto4.png" alt="Proyecto 6">
                 <div class="contenido-proyecto">
                     <h3>Gestor de Cotizaciones y Carrito</h3>
                     <p>Aplicación web desarrollada con Laravel para administrar carritos de compra y generar cotizaciones, optimizando el flujo de ventas en línea.</p>
@@ -156,8 +166,8 @@
                 </div>
             </section>
 
-            <section class="proyecto">
-                <img src="img/proyecto6.png" alt="Proyecto 8">
+            <section class="proyecto sombra-proyecto">
+                <img class="project-ss" src="img/proyecto6.png" alt="Proyecto 8">
                     <div class="contenido-proyecto">
                     <h3>Prototipo UX - Plataforma Multimedia</h3>
                     <p>Diseño de alta fidelidad para red social enfocada en contenido multimedia.</p>
@@ -169,8 +179,8 @@
                 </div>
             </section>
 
-            <section class="proyecto">
-                <img src="img/proyecto7.png" alt="Proyecto 9">
+            <section class="proyecto sombra-proyecto">
+                <img class="project-ss" src="img/proyecto7.png" alt="Proyecto 9">
                 <div class="contenido-proyecto">
                     <h3>Prototipo UX - Videojuego Indie</h3>
                     <p>Diseño de alta fidelidad para videojuego presentado en ANFECA 2023. Segundo lugar en el área de tecnología. - Para visualizar correctamente en Figma, presiona la tecla “Z” si estás en computadora.</p>
